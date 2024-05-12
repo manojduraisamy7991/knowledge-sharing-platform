@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-        knowledge sharing platform
+        knowledge sharing platform - (development In Progress)
         </p>
         <a
           className="App-link"
