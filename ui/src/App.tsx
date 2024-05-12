@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import { sampleMock, SampleMack } from './const'
 
 const MyProfileLink = 'https://master--manoj-frontend-engineer-portfolio.netlify.app/'
 function App() {
@@ -18,6 +19,14 @@ function App() {
           My Profile ....
         </a>
       </header>
+      <div className='sample-knowlege'>
+{sampleMock.map((item:SampleMack)=>{
+        return <>
+            <h3>{item.title}</h3>
+            <p>{item.content}</p>
+               </>
+})}
+      </div>
     </div>
   );
 }
