@@ -1,0 +1,23 @@
+.card-container{
+    border: 1px solid #ccc;
+    display: flex;
+    flex-wrap:wrap;
+    border-radius: 8px;
+}
+.card {
+    background-color: aquamarine;
+    margin: 10px;
+    width: 100%;
+  }
+  
+  .card-content {
+    background-color: red;
+    width: 100%;
+    height: auto;
+    margin: 10px;
+  }
+  .card-content p {
+    height: auto;
+    padding-left: 11px;
+    text-align: start;
+  }
